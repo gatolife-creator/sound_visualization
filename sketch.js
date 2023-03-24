@@ -14,11 +14,9 @@ let sign = true;
 
 function preload() {
   songs = [
-    loadSound('assets/Inukshuk - Future Past.mp4'),
     loadSound('assets/ElectroLight The Rift.mp3'),
     loadSound('assets/TheFatRat - Electrified.mp3'),
     loadSound('assets/TheFatRat Elegy Jackpot EP Track 4.mp3'),
-    loadSound('assets/MitiS - Innocent Discretion.mp4'),
   ];
 }
 
@@ -71,7 +69,7 @@ function draw() {
   if (sign) {
     fill('white');
     textSize(24);
-    text('1~6いずれかのキーを押してください', 0, 0);
+    text('1~3いずれかのキーを押してください', 0, 0);
   }
 }
 
