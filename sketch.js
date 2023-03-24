@@ -69,7 +69,7 @@ function draw() {
   if (sign) {
     fill('white');
     textSize(24);
-    text('1~3いずれかのキーを押してください', 0, 0);
+    text('Press 1~3', 0, 0);
   }
 }
 
